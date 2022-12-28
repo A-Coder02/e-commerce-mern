@@ -1,0 +1,173 @@
+.product-main {
+  background-color: #ffffff;
+  height: 450px;
+  background-blend-mode: multiply;
+  background-size: contain;
+  background-position: left;
+}
+.custom-select {
+  position: sticky;
+  z-index: 5;
+  top: 71px;
+  left: 0;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  padding: 0.4rem;
+  text-transform: uppercase;
+  z-index: 0;
+}
+.custom-select select,
+.custom-select button,
+.custom-select input {
+  padding: 1rem;
+}
+.custom-select label {
+  margin: 0 0.3rem;
+  padding: 0.5rem;
+  box-sizing: revert;
+}
+.product-mains {
+  /* background-image: url("../img/products/wallets/wallet.jpg"); */
+}
+.product-main a {
+  color: white;
+}
+.product-main-para {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  color: black;
+
+  height: 100%;
+  justify-content: center;
+}
+.product-link-main > a {
+  font-size: 1rem;
+  color: var(--p-clr);
+}
+.product-main-para-head {
+  margin: 1rem;
+  width: 50%;
+}
+.product-main-para > h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  color: var(--s-clr);
+  max-width: 700px;
+  border-left: 10px var(--p-clr) solid;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+.product-main-info {
+  font-size: 0.8rem;
+  text-align: justify;
+  line-height: 2;
+}
+.page-toggle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.page-toggle span {
+  padding: 4px;
+  margin: 5px;
+  background: whitesmoke;
+}
+
+/* REMAINED */
+.product-type-wrapper-mobile {
+  display: none;
+}
+.product-type-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-right: 1rem;
+}
+.product-type-item {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  flex: 0 0 190px;
+}
+.product-type-item img {
+  height: 250px;
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+.product-type-item img:hover {
+  transform: scale(1.05);
+}
+.product-type-item p {
+  font-family: "Lora";
+  color: #595858;
+  white-space: nowrap;
+}
+.color-options {
+  display: flex;
+  justify-content: center;
+}
+.color-options-items {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.4rem;
+  border-radius: 50%;
+}
+.ltr-color {
+  background: #ac5930;
+}
+.blue-ltr-color {
+  background: #26458d;
+}
+.dark-ltr-color {
+  background: #66341c;
+}
+.product-detail {
+  display: block;
+  filter: opacity(1);
+  width: 100%;
+  text-align: -webkit-center;
+  font-size: 0.8rem;
+  font-family: var(--f2-style);
+  margin: auto;
+  color: gray;
+  padding-top: 1rem;
+  position: static;
+  z-index: -1;
+}
+.product-items {
+  text-align: center;
+}
+.product-items:hover p {
+  color: gray;
+}
+.product-items > a > p {
+  width: 80%;
+}
+.product-items > a {
+  margin-bottom: 1rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-main-product {
+  background-color: #ffffffa3;
+  background-size: contain;
+}
+.product-main-product {
+  background-color: #ffffff;
+  background-size: contain;
+  background-position: right;
+  color: var(--p-clr);
+}

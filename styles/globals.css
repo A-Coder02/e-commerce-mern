@@ -1,3 +1,14 @@
+@import "../style/cart.css";
+@import "../style/coursel.css";
+@import "../style/hide.css";
+@import "../style/index.css";
+@import "../style/login.css";
+@import "../style/product-item.css";
+@import "../style/product.css";
+@import "../style/producthover.css";
+@import "../style/responsive.css";
+@import "../style/style.css";
+
 html,
 body {
   padding: 0;
@@ -15,12 +26,11 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.layout_wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.layout_wrapper > main {
+  flex: 1;
 }

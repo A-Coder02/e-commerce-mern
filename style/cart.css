@@ -1,0 +1,155 @@
+.cart-section {
+    background: whitesmoke;
+    color: black;
+    width: 0vw;
+    font-size: 0.85rem;
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    height: 100vh;
+    transition: 0.3s width;
+    /* top: 200px; */
+    overflow: auto;
+    padding: 1rem 0;
+}
+.for-a-gift-wrapper {
+    box-shadow: 0 0 10px 1rem whitesmoke;
+}
+.cart-section::-webkit-scrollbar {
+  width: 0.5rem;
+
+}
+
+/* Track */
+.cart-section::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.cart-section::-webkit-scrollbar-thumb {
+  background: var(--p-clr); 
+}
+
+/* Handle on hover */
+.cart-section::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+.cart-section > * {
+	
+    padding: 0.5em 1em 0 1em;
+    font-weight: 300 !important;
+}
+.cart-item-list {
+    overflow: auto;
+    height: 75%;
+    width: 100%;
+    padding-right: 1em;
+    font-size: 0.81em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cart-header{
+	font-weight:300;
+	padding:0.5em;									
+	padding-left:1.5em;
+	padding-bottom:0;
+	display:flex;
+	justify-content:space-between;
+}
+
+#cart-close{
+	padding:0.4em;
+	border-radius:100%;
+	height:2em;
+	width:2em;
+	text-align:center;
+	color:gray;
+	
+}
+#cart-close:is(:active){
+
+	box-shadow:0 0 0.4em darkgray inset;
+}
+.cart-item-close {
+    /* float: right; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.4em 0.6em;
+}
+.cart-item{
+	margin:0.5em;
+	position:relative;
+	display:flow-root;
+	background:white;
+	padding:0;
+	flex: 1 1 300px;
+}
+.cart-item-img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    padding: 0 0.4em 0 0;
+}
+.cart-item-name{
+	font-weight:800;
+	text-transform:uppercase;
+}
+.cart-item-spec{
+	font-weight:200;
+	padding-right:2em;
+}
+.cart-item-div{
+	padding:0.5em;
+}
+#giftLabel{
+	display:none;
+}
+.fl-rt{
+	float:right;
+	padding-right:1em;
+}
+.cart-btns {
+    font-size: 1.2rem;
+    padding: 1.2rem !important;
+    background: #ff0000;
+	margin:1rem;
+}
+.subtotal-div{
+	display:flex;
+	justify-content:center;
+	flex-flow:column wrap;
+	align-content:stretch;
+	text-align:center;
+}
+#cart-icon-item-num {
+    display: flex;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: red;
+    overflow: hidden;
+    line-height: 1;
+    font-size: 0.8em;
+    color: whitesmoke;
+    position: absolute;
+    z-index: 4;
+    top: -3px;
+    right: -3px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.hidden{
+	display:none; 
+}
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: #0000009c;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    backdrop-filter: blur(2px);
+}

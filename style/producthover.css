@@ -1,0 +1,29 @@
+.product-items:hover  .show-img{
+	/* filter:opacity(1); */
+	transform:scale(0.95)
+}
+.show-img{transition:0.4s;}
+.product-items:hover  .product-detail{
+	filter:opacity(1);
+
+}
+.product-items .hide-img{
+	position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+     filter:opacity(0);
+      transition:1s;
+	   width: 360px; /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+}
+.product-items img{
+		position: relative;
+        width: 360px; /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+		height:200px;
+		z-index:-1;
+}
+
