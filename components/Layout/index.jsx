@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout_wrapper">
       <Header />
-      <main style={{ minHeight: "500px" }}>{children}</main>
+      <main style={{ minHeight: "500px", paddingTop: "32px" }}>{children}</main>
       <Footer />
     </div>
   );

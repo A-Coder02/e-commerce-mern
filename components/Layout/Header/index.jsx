@@ -9,12 +9,14 @@ import {
   openSearchBox,
   openSliderMenu,
 } from "../../../script";
+import NavList from "./NavList";
+import MobileNavList from "./NavList/MobileNavList";
 
 const Header = () => {
   return (
     <>
       <header>
-        <ul className="slider-menu" id="sliderMenu">
+        {/* <ul className="slider-menu" id="sliderMenu">
           <a>
             <i className="fas fa-search"></i>
             <input type="text" placeholder="Search Products..." />
@@ -38,7 +40,8 @@ const Header = () => {
           </a>
 
           <div className="aa1"></div>
-        </ul>
+        </ul> */}
+        <MobileNavList />
         <div className="overlay hidden"></div>
 
         <div className="cart-section" id="cart-slot">
@@ -210,78 +213,11 @@ const Header = () => {
             </a>
           </div>
           <div className="header-items-bottom-items">
-            <ul
-              style={{
-                justifyContent: "center",
-              }}
-              className="navlinks"
-            >
-              <li className="imp-links">
-                <a href="processor.html">PROCESSOR</a>
-              </li>
-              <li className="imp-links">
-                {" "}
-                <a href="motherboard.html">MOTHERBOARD</a>{" "}
-              </li>
-              <li className="imp-links">
-                <a href="laptop.html">LAPTOPS</a>
-              </li>
-              <li className="imp-links">
-                <a href="networking.html">NETWORKING</a>
-              </li>
-              <li className="imp-links">
-                <a href="accesories.html">ACCESSORIES</a>
-              </li>
-              <li className="imp-links">
-                <a href="service.html">SERVICES</a>
-              </li>
-              <li className="nimp-links">
-                <a href="newin.html">NEW IN</a>
-              </li>
-              <li className="nimp-links">
-                <a href="best-sellers.html">BEST SELLERS</a>
-              </li>
-              <li className="nimp-links">
-                <a href="all-products.html">ALL PRODUCTS</a>
-              </li>
-            </ul>
+            <NavList />
           </div>
         </div>
       </header>
-      <ul
-        style={{
-          justifyContent: "center",
-        }}
-        className="navlinks show-ul"
-      >
-        <li className="imp-links">
-          <a href="processor.html">PROCESSOR</a>
-        </li>
-        <li className="imp-links">
-          <a href="motherboard.html">MOTHERBOARD</a>
-        </li>
-        <li className="imp-links">
-          <a href="laptop.html">LAPTOPS</a>
-        </li>
-        <li className="imp-links">
-          <a href="networking.html">NETWORKING</a>
-        </li>
-        <li className="imp-links">
-          <a href="accesories.html">ACCESSORIES</a>
-        </li>
-        <li className="imp-links">
-          <a href="service.html">SERVICES</a>
-        </li>
-        <li className="nimp-links">
-          <a href="newin.html">NEW IN</a>
-        </li>
-        <li className="nimp-links">
-          <a href="best-sellers.html">BEST SELLERS</a>
-        </li>
-        <li className="nimp-links">
-          <a href="all-products.html">ALL PRODUCTS</a>
-        </li>
-      </ul>
+      <NavList className="show-ul" />
     </>
   );
 };
