@@ -73,7 +73,7 @@ const Footer = () => {
             <a href="#">Specials</a>
           </li>
         </ul>
-        <ul>
+        {/* <ul>
           <li className="link-heads">
             <a>My Account</a>
           </li>
@@ -89,19 +89,19 @@ const Footer = () => {
           <li>
             <a href="#">Newsletter</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <hr />
       <div className="copyright">
         <span>
-          Powered By <a href="index.html">Tech Mechanic</a>
+          Powered By <a href="index.html">John Doe</a>
         </span>
         <span>
-          <a href="#">Tech Mechanic</a> © 2021
+          <a href="#">John Doe</a> © 2023
         </span>
         <br />
         <div className="social-links">
-          <p>All rights reserved © 2021 Tech Mechanic Ltd</p>
+          <p>All rights reserved © 2021 John Doe Ltd</p>
           <div>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-facebook-square"></i>

@@ -1,49 +1,29 @@
 import React from "react";
+import CustomSearch from "../formUI/CustomSearch";
+import CustomSelect from "../formUI/CustomSelect";
 
 const CategoryFilter = () => {
   return (
     <div className="custom-select">
       <div>
-        <label for="brand">
-          {" "}
-          Brands
-          <select id="brand">
-            <option value="0" selected>
-              All
-            </option>
-            <option style={{ padding: "20px" }} value="1">
-              HP
-            </option>
-            <option value="2">LENOVO</option>
-            <option value="3">ASUS</option>
-            <option value="4">ACCER</option>
-            <option value="5">DELL</option>
-            <option value="6">APPLE</option>
-          </select>
-        </label>
-        <label for="price">
-          {" "}
-          Sort By
-          <select id="price">
-            <option value="0" selected>
-              Featured
-            </option>
-            <option value="2">Price: Low To High</option>
-            <option value="3">Price: High To Low</option>
-            <option value="5">Newest Arrivals</option>
-          </select>
-        </label>
+        <CustomSelect
+          label="brand"
+          options={[
+            { id: 1, name: "option 1" },
+            { id: 2, name: "option 2" },
+          ]}
+        />
+
+        <CustomSelect
+          label="SORT"
+          options={[
+            { id: 1, name: "Low To High" },
+            { id: 2, name: "Heigh To Low" },
+            { id: 3, name: "New Arrivels" },
+          ]}
+        />
       </div>
-      <form>
-        <label for="searchProducts">
-          Search
-          <input type="search" id="searchProducts" />
-          <button
-            className="btn btn-primary fas fa-search"
-            type="submit"
-          ></button>
-        </label>
-      </form>
+      <CustomSearch />
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   closeCart,
@@ -203,9 +204,9 @@ const Header = () => {
                 onClick={closeSliderMenu}
               ></i>
             </div>
-            <a className="tr" href="index.html">
+            <Link className="tr" href="/">
               TECH MECHANIC
-            </a>
+            </Link>
             <a onClick={openCartM}>
               <i className="fas fa-shopping-cart hide-i">
                 <span id="cart-icon-item-num">1</span>

@@ -61,6 +61,7 @@ header {
     padding: 1rem 0;
   }
   .show-ul {
+    display: none !important;
     overflow: auto;
     justify-content: flex-start !important;
   }
@@ -246,7 +247,7 @@ header {
     align-items: center;
     font-size: 1rem;
   }
-  .hide-i {
+  i.hide-i {
     display: block !important;
     display: block !important;
     font-size: 1em;
@@ -261,7 +262,7 @@ header {
     padding-top: 7.5rem;
   }
   .header-items-top {
-    display: none;
+    display: none !important;
   }
 
   .banner {
@@ -527,6 +528,7 @@ header {
     justify-content: left;
   }
   .header-items.header-items-bottom {
+    position: fixed;
     top: 0px;
   }
   .header-items-bottom ul {

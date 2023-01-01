@@ -7,7 +7,7 @@ const CategoryHeader = () => {
       style={{ backgroundImage: "url(img/product-thumbnails/p-3.jpg)" }}
     >
       <div className="product-main-para product-main-para-product">
-        <h2>FIRST CHOICE FOR MODERN PEOPLES</h2>
+        <h2>Title Here</h2>
       </div>
     </div>
   );

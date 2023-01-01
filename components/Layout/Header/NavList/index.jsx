@@ -24,12 +24,14 @@ const NavList = ({ className = "" }) => {
       {NAVLIST_DATA.map((navlink) => (
         <li
           key={navlink.id}
-          className="nimp-links"
+          className="imp-links"
           style={{
             textTransform: "uppercase",
           }}
         >
-          <Link href={navlink.link.toLocaleLowerCase()}>{navlink.link}</Link>
+          <Link href={navlink.link.toLocaleLowerCase().replace(" ", "_")}>
+            {navlink.link}
+          </Link>
         </li>
       ))}
     </ul>
