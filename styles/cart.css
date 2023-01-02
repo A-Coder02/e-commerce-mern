@@ -15,24 +15,6 @@
 .for-a-gift-wrapper {
   box-shadow: 0 0 10px 1rem whitesmoke;
 }
-.cart-section::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-/* Track */
-.cart-section::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-.cart-section::-webkit-scrollbar-thumb {
-  background: var(--p-clr);
-}
-
-/* Handle on hover */
-.cart-section::-webkit-scrollbar-thumb:hover {
-  background: red;
-}
 .cart-section > * {
   padding: 0.5em 1em 0 1em;
   font-weight: 300 !important;
