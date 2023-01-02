@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ScSubTotal = () => {
@@ -25,10 +26,10 @@ const ScSubTotal = () => {
         Free Shipping* | 60 Days Returns | 1 Year Warranty
       </div>
       <button className="btns cart-btns">GO TO CHECKOUT</button>
-      <p>Taxes included, discounts applied at checkout.</p>
-      <span className="checkout-cards">
-        <img src="img/pay-options.jpg" />
-      </span>
+      {/* <p>Taxes included, discounts applied at checkout.</p> */}
+      {/* <span className="checkout-cards" style={{ height: "300px" }}>
+        <Image fill src="/img/router.jpg" />
+      </span> */}
     </div>
   );
 };

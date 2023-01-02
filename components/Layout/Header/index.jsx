@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <MobileNavList isOpen={menuToggle} />
+        <MobileNavList isOpen={menuToggle} setOpen={setMenuToggle} />
         <div className="overlay hidden"></div>
 
         <ShoppingCart />

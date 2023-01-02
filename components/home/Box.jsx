@@ -10,7 +10,7 @@ const Box = () => {
           background: "url(./img/box/box1.jpg)",
         }}
       >
-        <Link href="/processors">
+        <Link href="products/processors">
           <h2>Ultimate built CPUs for all your tech</h2>
           <p>
             CPU, motherboard, RAM & cases for Gaming, Architectures & Office
@@ -26,7 +26,7 @@ const Box = () => {
           background: "url(./img/box/box2.jpg)",
         }}
       >
-        <Link href="/accesories">
+        <Link href="products/accesories">
           <h2>Carry your gear like never before</h2>
           <p>
             Constructed with durable materials and branded keyboards, mouses,
@@ -41,7 +41,7 @@ const Box = () => {
           background: "url(./img/box/box3.jpg)",
         }}
       >
-        <Link href="/laptops">
+        <Link href="products/laptops">
           <h2>Bloody worthy Laptops</h2>
           <p>Nicely priced for any occasion and in budget</p>
         </Link>
@@ -53,7 +53,7 @@ const Box = () => {
           background: "url(./img/box/box4.jpg)",
         }}
       >
-        <Link href="/gpu">
+        <Link href="products/gpu">
           <h2>Enhance performance with NVIDEA</h2>
           <p>All GPUs available with great prices and performances.</p>
         </Link>

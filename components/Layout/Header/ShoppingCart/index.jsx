@@ -10,8 +10,15 @@ const ShoppingCart = () => {
     <div className="cart-section" id="cart-slot">
       <ScHeader />
       <ScItemList />
-      <ScGiftWrapper />
-      <ScSubTotal />
+      <div
+        style={{
+          position: "sticky",
+          bottom: "0",
+        }}
+      >
+        <ScGiftWrapper />
+        <ScSubTotal />
+      </div>
     </div>
   );
 };

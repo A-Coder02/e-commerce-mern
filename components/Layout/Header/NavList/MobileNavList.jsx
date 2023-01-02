@@ -13,7 +13,7 @@ const NAVLIST_DATA = [
   { id: 1, link: "all products" },
 ];
 
-const MobileNavList = ({ className = "", isOpen }) => {
+const MobileNavList = ({ className = "", isOpen, setOpen }) => {
   return (
     <ul
       className="slider-menu"
@@ -27,7 +27,11 @@ const MobileNavList = ({ className = "", isOpen }) => {
         <input type="text" placeholder="Search Products..." />
       </a>
       {NAVLIST_DATA.map((nav) => (
-        <Link href={"/products/" + nav.link} key={nav.id}>
+        <Link
+          href={"/products/" + nav.link}
+          key={nav.id}
+          onClick={() => setOpen((bool) => !bool)}
+        >
           {nav.link}
         </Link>
       ))}

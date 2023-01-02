@@ -1,24 +1,31 @@
 import React from "react";
-
+import Img1 from "./short/short1.jpeg";
+import Img2 from "./short/short2.jpeg";
+import Img3 from "./short/short3.jpeg";
+import Img4 from "../../../public/img/short/short1.jpeg";
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
       <div className="hr-line"></div>
       <div className="short">
         <div className="short-items">
-          <img src="img/short/short1.jpeg" />
-          <p>Worldwide Shipping</p>
+          <Image width="100" height="100" src="/img/short/short1.jpeg" />
+          <p>All India Shipping</p>
         </div>
         <div className="short-items">
-          <img src="img/short/short2.jpeg" />
+          <Image width="100" height="100" src="/img/short/short2.jpeg" />
+
           <p>1 Year Warranty</p>
         </div>
         <div className="short-items">
-          <img src="img/short/short3.jpeg" />
+          <Image width="100" height="100" src="/img/short/short3.jpeg" />
+
           <p>Free Fast Shipping</p>
         </div>
         <div className="short-items">
-          <img src="img/short/short4.jpeg" />
+          <Image width="100" height="100" src="/img/short/short4.jpeg" />
+
           <p>60 Day Returns</p>
         </div>
       </div>

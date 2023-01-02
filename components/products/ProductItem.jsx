@@ -8,7 +8,7 @@ const ProductItem = () => {
   return (
     <div
       className="product-items"
-      onClick={() => router.push(router.asPath + "/router")}
+      onClick={() => router.push(router.asPath + "/product")}
     >
       {/* <Link href="product"> */}
       <div style={{ position: "relative" }}>
