@@ -29,7 +29,11 @@ const NavList = ({ className = "" }) => {
             textTransform: "uppercase",
           }}
         >
-          <Link href={"/" + navlink.link.toLocaleLowerCase().replace(" ", "_")}>
+          <Link
+            href={
+              "/products/" + navlink.link.toLocaleLowerCase().replace(" ", "_")
+            }
+          >
             {navlink.link}
           </Link>
         </li>

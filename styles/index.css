@@ -6,9 +6,14 @@
 .top-banner {
   display: flex;
   flex-direction: column;
-  background-color: #ff6700;
   position: relative;
-  height: 87vh;
+  height: fit-content;
+  text-align: center;
+}
+.top-banner img {
+  object-fit: contain;
+  max-height: 400px !important;
+  width: auto;
 }
 .img-banner {
   display: flex;

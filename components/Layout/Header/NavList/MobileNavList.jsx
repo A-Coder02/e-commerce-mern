@@ -27,7 +27,7 @@ const MobileNavList = ({ className = "", isOpen }) => {
         <input type="text" placeholder="Search Products..." />
       </a>
       {NAVLIST_DATA.map((nav) => (
-        <Link href={nav.link} key={nav.id}>
+        <Link href={"/products/" + nav.link} key={nav.id}>
           {nav.link}
         </Link>
       ))}

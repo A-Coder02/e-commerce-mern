@@ -163,7 +163,7 @@ header {
     flex-direction: column;
     background-color: whitesmoke;
     position: relative;
-    height: 100vh;
+    margin-top: 4rem;
   }
   .cart-section {
     background: whitesmoke;

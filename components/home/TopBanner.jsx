@@ -1,10 +1,11 @@
+import Link from "next/link";
 import Script from "next/script";
 import React from "react";
 
 const TopBanner = () => {
   return (
     <div className="top-banner">
-      <video
+      {/* <video
         id="vid1"
         className="intro-video"
         width="500"
@@ -28,7 +29,10 @@ const TopBanner = () => {
         <button className="btns">
           <a href="all-products.html">Shop Now</a>
         </button>
-      </section>
+      </section> */}
+      <Link href="/custom-build">
+        <img width={"100%"} height="100%" src="./banner.png" />
+      </Link>
     </div>
   );
 };
