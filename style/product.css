@@ -22,7 +22,7 @@
 .custom-select select,
 .custom-select button,
 .custom-select input {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .custom-select label {
   margin: 0 0.3rem;
@@ -30,7 +30,7 @@
   box-sizing: revert;
 }
 .product-mains {
-  /* background-image: url("../img/products/wallets/wallet.jpg"); */
+  /* background-image: url("../public/img/products/wallets/wallet.jpg"); */
 }
 .product-main a {
   color: white;

@@ -148,10 +148,14 @@ header {
   }
 }
 @media only screen and (max-width: 600px) {
+  .header-items-bottom-items.main-c > *:nth-child(1),
+  .header-items-bottom-items.main-c > *:nth-child(3) {
+    display: block !important;
+  }
   a.tr {
     color: white;
     font-family: "Josefin Sans";
-    font-size: 1.5rem;
+    font-size: 5.5vw !important;
     padding: 1rem;
   }
   .top-banner {
@@ -187,7 +191,7 @@ header {
   }
   .slider-menu {
     text-transform: uppercase;
-    display: block;
+    display: block !important;
     overflow: auto;
     padding: 0px;
     position: fixed;
@@ -200,7 +204,7 @@ header {
     transition: width 0.5s;
   }
   .cart-item-list {
-    height: 45% !important;
+    height: 55vh !important;
   }
   .cart-section {
     padding-bottom: 0rem !important;
@@ -243,13 +247,13 @@ header {
     z-index: 3;
   }
   .main-c {
-    justify-content: space-between;
+    justify-content: space-between !important;
     align-items: center;
     font-size: 1rem;
   }
   i.hide-i {
-    display: block !important;
-    display: block !important;
+    /* display: block !important; */
+    /* display: block !important; */
     font-size: 1em;
   }
   header {
@@ -273,7 +277,7 @@ header {
   }
   #banner-main {
     background-position: top;
-    background: url("../img/box/box2.jpg");
+    background: url("../public/img/box/box2.jpg");
     background-size: cover;
     /* background-attachment:fixed; */
   }

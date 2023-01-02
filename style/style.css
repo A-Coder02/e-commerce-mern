@@ -35,8 +35,8 @@ p {
 :root {
   --f-style: "Tourney";
   --f2-style: "Josefin Sans", sans-serif;
-  --p-clr: #192d94;
-  --s-clr: #0183b2;
+  --p-clr: #8bc34a;
+  --s-clr: #ff6700;
 }
 /* width */
 /* ::-webkit-scrollbar {
@@ -121,7 +121,7 @@ img {
   padding: 10px;
 }
 .hide-i {
-  display: none !important;
+  display: none;
 }
 .main-c i {
   transition: 0.7s;
@@ -130,11 +130,10 @@ img {
 .slider-menu {
   display: none;
   position: fixed;
-  top: 131px;
+  top: 100px;
   z-index: -1;
-  background: darkgray;
+  background: white;
   height: 100vh;
-  background: linear-gradient(45deg, black, #b22424b3);
   height: 100vh !important;
   width: 0vw;
   overflow: hidden;
@@ -427,7 +426,7 @@ footer {
   object-fit: cover;
 }
 .sub-alert {
-  /* background: url(../img/sub-sect.jpg), #111217; */
+  /* background: url(../public/img/sub-sect.jpg), #111217; */
   color: #b1945f;
   width: 100%;
   padding: 1em;
@@ -441,7 +440,7 @@ footer {
   align-items: center;
   border-radius: 1em 1em 0 0;
   font-size: 0.8rem;
-  /* background-image: url("../img/sub-sect.jpg"); */
+  /* background-image: url("../public/img/sub-sect.jpg"); */
   background-size: 200px;
   background-position: 100% 50%;
   background-blend-mode: color-dodge;
@@ -572,22 +571,22 @@ p {
 }
 
 .secc1 {
-  /* background-image: url("../img/product-thumbnails/gift-1.jpg"); */
+  /* background-image: url("../public/img/product-thumbnails/gift-1.jpg"); */
 }
 .secc2 {
-  /* background-image: url("../img/product-thumbnails/gift-2.jpg"); */
+  /* background-image: url("../public/img/product-thumbnails/gift-2.jpg"); */
 }
 .secc3 {
-  /* background-image: url("../img/product-thumbnails/gift-3.jpg"); */
+  /* background-image: url("../public/img/product-thumbnails/gift-3.jpg"); */
 }
 .secc4 {
-  /* background-image: url("../img/product-thumbnails/gift-4.jpg"); */
+  /* background-image: url("../public/img/product-thumbnails/gift-4.jpg"); */
 }
 .secc5 {
-  /* background-image: url("../img/product-thumbnails/gift-5.jpg"); */
+  /* background-image: url("../public/img/product-thumbnails/gift-5.jpg"); */
 }
 .secc6 {
-  /* background-image: url("../img/product-thumbnails/gift-6.jpg"); */
+  /* background-image: url("../public/img/product-thumbnails/gift-6.jpg"); */
 }
 .imp-links:hover > a,
 .nimp-links:hover > a {
@@ -622,3 +621,7 @@ a.tr {
 /* kkk */
 
 /* kkk */
+.header-items-bottom-items.main-c > *:nth-child(1),
+.header-items-bottom-items.main-c > *:nth-child(3) {
+  display: none;
+}

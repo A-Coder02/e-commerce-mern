@@ -72,7 +72,7 @@
 
 /* PBI SECTION */
 .pbi-wrapper {
-  background: url("../img/pbi/pbi-w1.jpg");
+  background: url("../public/img/pbi/pbi-w1.jpg");
   background-repeat: repeat !important;
   color: white;
   padding: 1.3rem 6rem;

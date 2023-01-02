@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const NAVLIST_DATA = [
-  { id: 1, link: "Processor" },
+  { id: 1, link: "processor" },
   { id: 2, link: "motherboard" },
   { id: 1, link: "laptops" },
   { id: 1, link: "networking" },
@@ -29,7 +29,7 @@ const NavList = ({ className = "" }) => {
             textTransform: "uppercase",
           }}
         >
-          <Link href={navlink.link.toLocaleLowerCase().replace(" ", "_")}>
+          <Link href={"/" + navlink.link.toLocaleLowerCase().replace(" ", "_")}>
             {navlink.link}
           </Link>
         </li>

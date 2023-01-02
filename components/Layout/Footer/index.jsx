@@ -63,7 +63,7 @@ const Footer = () => {
           <li>
             <a href="#">Brands</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">Gift Certificates</a>
           </li>
           <li>
@@ -71,7 +71,7 @@ const Footer = () => {
           </li>
           <li>
             <a href="#">Specials</a>
-          </li>
+          </li> */}
         </ul>
         {/* <ul>
           <li className="link-heads">
