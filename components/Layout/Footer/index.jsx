@@ -4,6 +4,7 @@ import Img2 from "./short/short2.jpeg";
 import Img3 from "./short/short3.jpeg";
 import Img4 from "../../../public/img/short/short1.jpeg";
 import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer>
